@@ -11,12 +11,11 @@ import Image from "next/image";
 
 export default function HomePageCard() {
   return (
-    <div className="container mx-auto">
-      {/* <div className="monsieur-la-doulaise-regular">socio</div> */}
-      <div className="flex flex-col">
+    <main className="flex w-full px-4 mx-auto min-h-screen max-w-screen-2xl items-center">
+      <div className="mx-auto min-h-screen max-w-screen-2xl items-center px-8">
         <Image
           src="/socio_canva.png"
-          alt="X_clone"
+          alt="Socio"
           width={300}
           height={300}
         ></Image>
@@ -80,6 +79,6 @@ export default function HomePageCard() {
           </div>
         </CardFooter>
       </Card>
-    </div>
+    </main>
   );
 }
