@@ -16,7 +16,7 @@ export default function Footer() {
     { name: "Settings", href: "/" },
   ];
   return (
-    <footer className="text-sm text-muted-foreground">
+    <footer className="text-sm text-muted-foreground mx-4">
       <ul>
         <li className="flex flex-1 space-x-7">
           {links.map((link) => (

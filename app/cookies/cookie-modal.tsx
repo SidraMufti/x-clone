@@ -30,7 +30,7 @@ export default function CookieModal({ showModal }: { showModal: boolean }) {
       {show && (
         <div>
           <Sheet>
-            <SheetTrigger>Open</SheetTrigger>
+            <SheetTrigger className="container mx-auto">Open</SheetTrigger>
             <SheetContent>
               <SheetHeader>
                 <SheetTitle>We respect your privacy!</SheetTitle>

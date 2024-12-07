@@ -6,9 +6,9 @@ import Footer from "./customComponents/footer";
 export default function Home() {
   return (
     <>
+      <CookieSheet />
       <HomePageCard />
       <Footer />
-      <CookieSheet />
     </>
   );
 }
